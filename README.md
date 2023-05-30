@@ -50,7 +50,7 @@ public AccountDTO GetBestAccount(UserWithBestAccountDTO user)
 
 ## 禁用更新
 
-修改 `.fiddler\Settings\electron-settings.json`，搜索 `autoUpdateSettings` 新增
+修改 `%userprofile%\.fiddler\Settings\electron-settings.json`，搜索 `autoUpdateSettings` 新增
 ```json
 "autoUpdateSettings": {
     "downloadedUpdateVersion": "0.0.0",

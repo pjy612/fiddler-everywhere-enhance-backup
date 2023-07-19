@@ -58,9 +58,9 @@ public AccountDTO GetBestAccount(UserWithBestAccountDTO user)
 2. Fiddler Everywhere 似乎会覆盖`electron-settings.json`的内容.
 
 **`electron-settings.json`文件路径**
-- Windows: `%%AppData%%`下, 具体按软件名查找即可(无Windows机器, 欢迎PR)
+- Windows: `%USERPROFILE%/.fiddler/Settings/electron-settings.json`
 - Linux: `~/.fiddler/Settings/electron-settings.json`
-- macOS: `~/.fiddler/Settings/electron-settings.json`(不知为何与Linux的路径一样, 按理说应该在`/Library/Application Support/Fiddler Everywhere/Caches`下)
+- macOS: `~/.fiddler/Settings/electron-settings.json`
   
 **`electron-settings.json`修改样例**
 修改 `.fiddler\Settings\electron-settings.json`，搜索 `autoUpdateSettings` 新增

@@ -57,12 +57,12 @@ public AccountDTO GetBestAccount(UserWithBestAccountDTO user)
 1. 理论上不需要第1、2、3步, 只需安装旧版并登陆成功, 退出软件, 修改`electron-settings.json`, 重启软件即可. 如不成功, 需要删除缓存、设置、已下载的安装包, 重新登陆, 修改文件.
 2. Fiddler Everywhere 似乎会覆盖`electron-settings.json`的内容.
 
-**`electron-settings.json`文件路径**
+### `electron-settings.json`文件路径
 - Windows: `%USERPROFILE%/.fiddler/Settings/electron-settings.json`
 - Linux: `~/.fiddler/Settings/electron-settings.json`
 - macOS: `~/.fiddler/Settings/electron-settings.json`
   
-**`electron-settings.json`修改样例**
+### `electron-settings.json`修改样例
 修改 `.fiddler\Settings\electron-settings.json`，搜索 `autoUpdateSettings` 新增
 ```json
 "autoUpdateSettings": {
